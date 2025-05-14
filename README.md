@@ -1,61 +1,193 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<a id="readme-top"></a>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![Unlicense License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## About Laravel
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/your_username/prueba-backend">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+  <h3 align="center">Prueba Backend</h3>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+  <p align="center">
+    Aplicación backend para prueba técnica
+    <br />
+    <a href="https://github.com/your_username/prueba-backend"><strong>Explorar documentación »</strong></a>
+    <br />
+    <br />
+  </p>
+</div>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Tabla de Contenidos</summary>
+  <ol>
+    <li>
+      <a href="#acerca-del-proyecto">Acerca del Proyecto</a>
+      <ul>
+        <li><a href="#construido-con">Construido Con</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#empezando">Empezando</a>
+      <ul>
+        <li><a href="#requisitos-previos">Requisitos Previos</a></li>
+        <li><a href="#instalación">Instalación</a></li>
+      </ul>
+    </li>
+    <li><a href="#uso">Uso</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ol>
+</details>
 
-## Learning Laravel
+<!-- ABOUT THE PROJECT -->
+## Acerca del Proyecto
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Este proyecto es una prueba técnica para evaluar habilidades de desarrollo backend utilizando Laravel y base de datos PostgreSQL.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Construido Con
 
-## Laravel Sponsors
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![PostgreSQL][PostgreSQL.com]][PostgreSQL-url]
+* [![PHP][PHP.com]][PHP-url]
+* [![NPM][NPM.com]][NPM-url]
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
-### Premium Partners
+<!-- GETTING STARTED -->
+## Empezando
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
+Para obtener una copia local del proyecto y ejecutarla, sigue estos sencillos pasos.
 
-## Contributing
+### Requisitos Previos
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+* PHP 8.1 o superior
+* Composer
+* Node.js y NPM
+* PostgreSQL
+* Git
 
-## Code of Conduct
+### Instalación
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+1. Clonar el repositorio
+   ```sh
+   git clone https://github.com/your_username/prueba-backend.git
+   ```
 
-## Security Vulnerabilities
+2. Navegar al directorio del proyecto
+   ```sh
+   cd prueba-backend
+   ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+3. Instalar dependencias de PHP con Composer
+   ```sh
+   composer install
+   ```
 
-## License
+4. Instalar dependencias de Node.js con NPM
+   ```sh
+   npm install
+   ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+5. Crear archivo de variables de entorno
+   ```sh
+   cp .env.example .env
+   ```
+
+6. Generar clave de aplicación
+   ```sh
+   php artisan key:generate
+   ```
+
+7. Configurar la conexión a la base de datos PostgreSQL en el archivo .env
+   ```
+   DB_CONNECTION=pgsql
+   DB_HOST=127.0.0.1
+   DB_PORT=5432
+   DB_DATABASE=nombre_base_datos
+   DB_USERNAME=usuario
+   DB_PASSWORD=contraseña
+   ```
+
+8. Ejecutar migraciones para crear las tablas en la base de datos
+   ```sh
+   php artisan migrate
+   ```
+   
+9. Ejecutar los seeders para crear datos estaticos en base de datos
+   ```sh
+   php artisan db:seed
+   ```
+
+10. Compilar los assets
+   ```sh
+   npm run dev
+   ```
+
+11. Iniciar el servidor de desarrollo
+    ```sh
+    php artisan serve
+    ```
+
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
+
+<!-- USAGE EXAMPLES -->
+## Uso
+
+Para utilizar la aplicación, navega a `http://localhost:8000` en tu navegador después de iniciar el servidor de desarrollo.
+
+### Comandos útiles
+
+* Ejecutar pruebas
+  ```sh
+  php artisan test
+  ```
+
+* Reiniciar base de datos
+  ```sh
+  php artisan migrate:fresh --seed
+  ```
+
+* Crear un nuevo controlador
+  ```sh
+  php artisan make:controller NombreController
+  ```
+
+* Crear un nuevo modelo con migración
+  ```sh
+  php artisan make:model Nombre -m
+  ```
+
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/your_username/prueba-backend.svg?style=for-the-badge
+[contributors-url]: https://github.com/your_username/prueba-backend/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/your_username/prueba-backend.svg?style=for-the-badge
+[forks-url]: https://github.com/your_username/prueba-backend/network/members
+[stars-shield]: https://img.shields.io/github/stars/your_username/prueba-backend.svg?style=for-the-badge
+[stars-url]: https://github.com/your_username/prueba-backend/stargazers
+[issues-shield]: https://img.shields.io/github/issues/your_username/prueba-backend.svg?style=for-the-badge
+[issues-url]: https://github.com/your_username/prueba-backend/issues
+[license-shield]: https://img.shields.io/github/license/your_username/prueba-backend.svg?style=for-the-badge
+[license-url]: https://github.com/your_username/prueba-backend/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/your_username
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[PostgreSQL.com]: https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white
+[PostgreSQL-url]: https://www.postgresql.org/
+[PHP.com]: https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white
+[PHP-url]: https://www.php.net/
+[NPM.com]: https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white
+[NPM-url]: https://www.npmjs.com/
